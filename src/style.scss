@@ -216,11 +216,36 @@
 
       .chatIcons {
         display: flex;
+        justify-content: flex-end;
         gap: 10px;
 
         img {
           height: 24px;
           cursor: pointer;
+        }
+        .threeDot{
+          position: relative;
+            .threeDots{
+              position: absolute;
+              right: 0px;
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              background-color: #5d5b8d;
+              button {
+                  background-color: #5d5b8d;
+                  color: #ddddf7;
+                  font-size: 10px;
+                  cursor: pointer;
+                  border: none;
+                  border-bottom: solid #7b96ec 2px;
+
+                }
+              button:hover{
+                  background-color: #ddddf7;
+                  color: #5d5b8d;
+              }                
+            }
         }
       }
 
