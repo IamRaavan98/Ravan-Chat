@@ -32,6 +32,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
         </Route>
+          <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );
