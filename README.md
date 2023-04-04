@@ -10,5 +10,5 @@
 
 ![Screen-shots](images/chatApp.png)
 ![Screen-shots](images/Screenshot%20(187).png)
-![Screen-shots](images/Screenshot%20(290).png.png)
+![Screen-shots](images/Screenshot%20(290).png)
 
